@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.license = { :type => 'MIT' }
     spec.requires_arc = true
     spec.source = { :git => 'https://github.com/pkluz/PKRevealController.git', :tag => "v#{spec.version}" }
-    spec.source_files = 'Source/**/*.{h,m}'
+    spec.source_files = 'Source/PKRevealController/**/*.{h,m}'
     spec.framework = 'UIKit', 'QuartzCore', 'Foundation'
     spec.platform = :ios, '6.0'
 end
